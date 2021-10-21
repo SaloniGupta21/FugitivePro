@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "455928573603",
+    "firebase_url": "https://fugitivepro-eac39.firebaseio.com",
+    "project_id": "fugitivepro-eac39",
+    "storage_bucket": "fugitivepro-eac39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455928573603:android:7573bdfd5c269600",
+        "android_client_info": {
+          "package_name": "migees.migrants.saloni.fugitivepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": " 455928573603-3ii7jsuahugtj1ssvsph4kqhobh7u6t5.apps.googleusercontent.com",
+          //455928573603-3s603c6g2lgvkc6sa7kj02n1nvp92p4f.apps.googleusercontent.com
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saloni.fugitivepro",
+            "certificate_hash": "2724f44673de15aafcbb433b19daf34cd25da049"
+          }
+        },
+        {
+          "client_id": "455928573603-n3f614fpp4hi4t7m0t8beipchn7v17rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu12Xlj0ubAPbUX0L7aoSGgkUmN3WtVvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455928573603-n3f614fpp4hi4t7m0t8beipchn7v17rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

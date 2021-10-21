@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="migees.migrants.saloni.fugitivepro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="migees.migrants.saloni.fugitivepro.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAK9UwHVySsk3ikuM7yLupGai4eLeevSKQ" />
+        <!-- android:value="AIzaSyBi-mK7UstJiWqZiRJwcHOW3DOdMkvM0K4" -->
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="4B0p7DIWq_HTF5ifaK2vVsEg5tytETEIeF5mTOHHNTmdeTHDpK6IALzFCw7RNLl0arn3D2Lab6CEZUSMpZezvc" />
+
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.splashScreen"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.weatherConditions"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="migees.migrants.saloni.fugitivepro.ConnectivityReceiver"
+            android:enabled="true" />
+
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.toVisit"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.languageOptions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.MapsActivity"
+            android:configChanges="locale|orientation"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="migees.migrants.saloni.fugitivepro.individualType"
+            android:configChanges="locale|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.applovin.adview.AppLovinConfirmationActivity"
+            android:configChanges="orientation|screenSize" />
+    </application>
+
+</manifest>

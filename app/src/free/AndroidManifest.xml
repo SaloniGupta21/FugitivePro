@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saloni.fugitivepro.paid">
+
+    <application>
+        <activity android:name="com.example.saloni.fugitivepro.paid.weatherConditions"></activity>
+    </application>
+</manifest>
